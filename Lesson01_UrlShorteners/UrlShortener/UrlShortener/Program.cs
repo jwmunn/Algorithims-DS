@@ -41,7 +41,19 @@ namespace UrlShortener
         // producing a string that represents the same number.
         public static string ToBase62(ulong number)
         {
-            return "";
+            StringBuilder sb = new StringBuilder();
+            ulong baseNum = 62;
+            ulong n = number;
+
+            while (n > 0)
+            {
+                ulong remainder = n % baseNum;
+                char base62Char = _base62[(int)remainder];
+                sb.Insert(0, base62Char);
+                n /= 62;
+            }
+
+            return sb.ToString();
         }
 
 
@@ -53,6 +65,7 @@ namespace UrlShortener
         public static void Main(string[] args)
         {
             Console.WriteLine(ToBase10("LpuPe81bc2w"));
+            Console.WriteLine(ToBase62(18327995462734721974));
 
             string mode = Console.ReadLine();
             string arg = Console.ReadLine();
