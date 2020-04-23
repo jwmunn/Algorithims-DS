@@ -1,0 +1,7 @@
+C:\UW\Algorithims-DS\Lesson01_UrlShorteners\UrlShortener\UrlShortener\bin\Debug\UrlShortener.exe.config
+C:\UW\Algorithims-DS\Lesson01_UrlShorteners\UrlShortener\UrlShortener\bin\Debug\UrlShortener.exe
+C:\UW\Algorithims-DS\Lesson01_UrlShorteners\UrlShortener\UrlShortener\bin\Debug\UrlShortener.pdb
+C:\UW\Algorithims-DS\Lesson01_UrlShorteners\UrlShortener\UrlShortener\obj\Debug\UrlShortener.csprojAssemblyReference.cache
+C:\UW\Algorithims-DS\Lesson01_UrlShorteners\UrlShortener\UrlShortener\obj\Debug\UrlShortener.csproj.CoreCompileInputs.cache
+C:\UW\Algorithims-DS\Lesson01_UrlShorteners\UrlShortener\UrlShortener\obj\Debug\UrlShortener.exe
+C:\UW\Algorithims-DS\Lesson01_UrlShorteners\UrlShortener\UrlShortener\obj\Debug\UrlShortener.pdb
