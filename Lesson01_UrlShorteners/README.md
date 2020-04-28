@@ -9,5 +9,3 @@ In most cases, it's just a base-62 encoded integer! In this assignment, you're b
 Hint: Use an array/string that contains all the numbers and digits: "0123456789AB...YZab...yz". For each letter in the base-62 number, look up the value in the string ("0123456789ABC..."). This gives you the base-62 value for that digit. Keep a running total and remember to keep multiplying by 62.
 
 NOTE: Be careful of overflow issues. The answer contains 20 digits (18,###,###,###,###,###,974)
-
-Protected branch test
